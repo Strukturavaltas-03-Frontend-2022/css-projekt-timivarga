@@ -37,6 +37,14 @@ main{
     display: flex;
 }
 
+aside{
+    flex: 20%;
+}
+
+section{
+    flex: 80%;
+}
+
 .main__nav{
     background-color: rgb(33,37,41);
     
@@ -90,10 +98,16 @@ main{
 
 .main__cards{
     display: flex; 
-   /* justify-content: space-around; */
+    justify-content: space-around; 
     flex-wrap: wrap;
 }
 
+.main__card{
+    width: 22%;
+    min-width: 200px;
+    padding: 25 px; 
+    
+}
 
 
 
